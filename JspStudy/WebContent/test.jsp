@@ -9,8 +9,8 @@
 <body>
 <%
 	String str = "테스트";
-	//System.out.println("str = " + str);
-	out.println("<h1>" + "str=" + str + "</h1>");
+	System.out.println("str = " + str);
+	//out.println("<h1>" + "str=" + str + "</h1>");
 %>
 
 </body>
