@@ -7,11 +7,14 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%
-	String str = "테스트";
-	//System.out.println("str = " + str);
-	out.println("<h1>" + "str=" + str + "</h1>");
-%>
-
+	<%
+		String var2 = "JSP";
+	%>
+	<%
+		String var1 = var2 + "Web Programming";
+	%>
+	출력할 값: <%=var1 %><br>
+	수식계산: <%=(3+5) %>
+	
 </body>
 </html>
